@@ -12,6 +12,7 @@ h3 {
 }
 
 .project {
+    min-width: 400px;
     text-align: center;
     padding: 3rem .5rem;
     margin-top: 3rem;
