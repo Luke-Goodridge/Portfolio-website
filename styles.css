@@ -1,3 +1,8 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 h3 {
     margin: 2rem 0 1rem 0;
 }
@@ -8,8 +13,13 @@ h3 {
 
 .project {
     text-align: center;
-    padding: 3rem 0 .5rem 0;
+    padding: 3rem .5rem;
     margin-top: 3rem;
+    background-color: whitesmoke;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    transition: .2s all;
+
 }
 .project h3 {
     position: absolute;
@@ -23,18 +33,30 @@ h3 {
 }
 
 .project .project-img {
-    width: 90%;
+    width: 80%;
     border-radius: .5rem;
     text-align: center;
-    box-shadow: 0 0 10px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     object-fit: contain;
     transition: .2s all;
-
 }
 
 .project a {
     margin: 10px 0 0 0;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    width: auto;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+    transition: .2 all;
+
+}
+
+.project a:hover {
+    filter: brightness(110%);
 }
 
 .project-container {
@@ -45,28 +67,43 @@ h3 {
     text-align: center;
     padding: 1rem 0 0 0;
 }
+#header {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform-origin: top right;
+    transform: skewY(3.5deg);
+}
 
 .page-header {
     text-align: center;
-    background-color: #659DBD;
+    background: none;
+    transform: skewY(-3.5deg);
 }
 
 .page-header {
     color:white;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
     margin-bottom: 0;
+    padding-top: 5rem;
 }
 .page-header p {
     max-width: 800px;
-    margin: .3rem auto;
+    margin: .3rem auto; 
 }
 
 nav {
-    background-color: #659DBD;
-
+    background: none;
+    transition: .2s all;
 }
 
 nav a {
     color: white;
     text-align: right;
+    transition: .2s all;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+}
+
+.navbar-toggler img {
+    color: white;
 }
