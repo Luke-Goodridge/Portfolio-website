@@ -119,7 +119,10 @@ nav a {
 }
 #resume .section-title {
     transform: skewY(3.5deg);
+}
 
+.resume-text {
+    margin: 1rem;
 }
 
 .resume-container{
@@ -132,3 +135,32 @@ nav a {
     padding-bottom: 2rem;
 }
 
+#skills {
+    margin-top: 5rem;
+    height: 30vh;
+}
+
+.skills-slide {
+    height: 30vh;
+    text-align: center;
+}
+
+#icon-container {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 350%;
+    margin: 0 5rem;
+}
+
+#icon-container i {
+    margin: 2px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+
+}
+.carousel-control-next-icon , .carousel-control-prev-icon{
+    background-color: #149F8D;
+    outline: 5px solid #149F8D;
+}

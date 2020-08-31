@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="styles.css" />
     <title>Luke Goodridge - Portfolio</title>
 </head>
@@ -51,7 +52,11 @@
                     <img class="project-img" src="img/project2-img.png"" alt="project1">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 project">
-                    <h3>Mortgage Calculator - React.js</h3>
+                    <h3>
+                        Mortgage Calculator - React.js
+                        <i class="devicon-javascript-plain colored"></i>
+
+                    </h3>
                     <a href="https://luke-goodridge.github.io/Mortgage-Calculator/" target="_blank">Live site</a>
                     <a href="https://github.com/Luke-Goodridge/Mortgage-Calculator" target="_blank">Github repo</a>
                     <p>A Mortgage payments calculator written with React as the JS framework and SASS with CSS. It allowed you to calculate your monthly payments when getting a certain mortgage. This also utilises local storage</p>
@@ -70,9 +75,53 @@
     <section id="resume">
         <h1 class="section-title">CV</h1>
         <div class="resume-container">
-            <p class="resume-text">You can view my PDF here, or simply right click "save link as.." to download a hard copy.</p>
+            <p class="resume-text">You can view my CV here, or simply right click "save link as.." to download a hard copy.</p>
             <a type="button" href="/assets/Luke_Goodridge_CV.pdf" target="_blank" class="btn btn-light">View/Download</a>
         </div>
+    </section>
+    <section id="skills">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item" data-interval="30000">
+                <div class="skills-slide">
+                    <h2>Skills</h2>
+                </div>
+              </div>
+              <div class="carousel-item active" data-interval="30000">
+                <div class="skills-slide">
+                    <h2>What do I have experience in?</h2>
+                    <div id="icon-container">
+                        <i class="devicon-react-original colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-windows8-original colored"></i>
+                        <i class="devicon-sass-original colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-jquery-plain colored"></i>
+                        <i class="devicon-apple-original colored"></i>
+                        <i class="devicon-bootstrap-plain colored"></i>
+                        <i class="devicon-github-plain colored"></i>
+                        <i class="devicon-photoshop-plain colored"></i>
+                        <i class="devicon-npm-original-wordmark colored"></i>
+                        <i class="devicon-python-plain colored"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="30000">
+                <div class="skills-slide">
+                    <h2>Skills</h2>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
