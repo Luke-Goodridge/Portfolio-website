@@ -64,9 +64,9 @@ h3 {
     border-radius: 3rem;
 }
 
-.projects-title {
+.section-title {
     text-align: center;
-    padding: 1rem 0 0 0;
+    padding: .3rem 0 0 0;
 }
 #header {
     background: #11998e;  /* fallback for old browsers */
@@ -82,7 +82,7 @@ h3 {
     transform: skewY(-3.5deg);
 }
 
-.page-header {
+.page-header, #resume {
     color:white;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
     margin-bottom: 0;
@@ -107,3 +107,28 @@ nav a {
 .navbar-toggler img {
     color: white;
 }
+
+#resume {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 3rem;
+    transform-origin: top right left;
+    transform: skewY(-3.5deg);
+    color: white;
+}
+#resume .section-title {
+    transform: skewY(3.5deg);
+
+}
+
+.resume-container{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: skewY(3.5deg);
+    padding-bottom: 2rem;
+}
+
